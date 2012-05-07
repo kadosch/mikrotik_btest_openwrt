@@ -26,4 +26,4 @@ define Package/mikrotik_btest/install
         $(INSTALL_BIN) $(PKG_BUILD_DIR)/src/mikrotik_btest $(1)/usr/bin/mikrotik_btest
 endef
 
-$(eval $(call BuildPackage,bridge))
+$(eval $(call BuildPackage,mikrotik_btest))
