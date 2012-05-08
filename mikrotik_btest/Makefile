@@ -4,9 +4,9 @@ PKG_NAME:=mikrotik_btest
 PKG_VERSION:=0.1
 PKG_RELEASE:=1
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)/src
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=@SF/$(PKG_NAME)
+PKG_SOURCE_URL:=https://github.com/downloads/kadosch/mikrotik_btest/
+PKG_MD5SUM:=a07fe070dfb87975e1ea204918a2804f
 
 include $(INCLUDE_DIR)/package.mk
 
