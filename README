@@ -1,0 +1,3 @@
+Add this line to feeds.conf or feeds.conf.default:
+
+src-git mikrotik_btest git://github.com/kadosch/mikrotik_btest_openwrt.git
