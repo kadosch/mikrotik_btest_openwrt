@@ -22,8 +22,8 @@ define Package/mikrotik_btest/description
 endef
 
 define Package/mikrotik_btest/install
-        $(INSTALL_DIR) $(1)/usr/bin
-        $(INSTALL_BIN) $(PKG_BUILD_DIR)/src/mikrotik_btest $(1)/usr/bin/mikrotik_btest
+        $(INSTALL_DIR) $(1)/usr/sbin
+        $(CP) $(PKG_INSTALL_DIR)/usr/sbin/mikrotik_btest $(1)/usr/sbin/
 endef
 
 $(eval $(call BuildPackage,mikrotik_btest))
