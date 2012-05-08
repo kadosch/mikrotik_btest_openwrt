@@ -11,19 +11,20 @@ PKG_MD5SUM:=a07fe070dfb87975e1ea204918a2804f
 include $(INCLUDE_DIR)/package.mk
 
 define Package/mikrotik_btest
-  SECTION:=net
-  CATEGORY:=Network
-  TITLE:=Mikrotik bandwidth test client
-  URL:=https://github.com/kadosch/mikrotik_btest
+	SECTION:=net
+	CATEGORY:=Network
+	TITLE:=Mikrotik bandwidth test client
+	URL:=https://github.com/kadosch/mikrotik_btest
 endef
 
 define Package/mikrotik_btest/description
- Mikrotik bandwidth test client
+	Mikrotik bandwidth test client
 endef
 
+
 define Package/mikrotik_btest/install
-        $(INSTALL_DIR) $(1)/usr/sbin
-        $(CP) $(PKG_INSTALL_DIR)/usr/sbin/mikrotik_btest $(1)/usr/sbin/
+	$(INSTALL_DIR) $(1)/usr/sbin
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/mikrotik_btest $(1)/usr/sbin
 endef
 
 $(eval $(call BuildPackage,mikrotik_btest))
