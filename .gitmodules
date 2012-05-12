@@ -1,3 +1,0 @@
-[submodule "mikrotik_btest/src"]
-	path = mikrotik_btest/src
-	url = git://github.com/kadosch/mikrotik_btest.git
