@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mikrotik_btest
-PKG_VERSION:=0.1
+PKG_VERSION:=0.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/downloads/kadosch/mikrotik_btest/
-PKG_MD5SUM:=a07fe070dfb87975e1ea204918a2804f
+PKG_MD5SUM:=583ca430805cf5e746aee49ca66d1adc
 
 include $(INCLUDE_DIR)/package.mk
 
