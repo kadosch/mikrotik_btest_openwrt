@@ -16,6 +16,7 @@ define Package/mikrotik_btest
 	TITLE:=Mikrotik bandwidth test client
 	URL:=https://github.com/kadosch/mikrotik_btest
 	DEPENDS:=+libpthread
+	MAINTAINER:=Javier Gisbert <kadosch86@gmail.com>
 endef
 
 define Package/mikrotik_btest/description
