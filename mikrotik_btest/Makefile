@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/downloads/kadosch/mikrotik_btest/
-PKG_MD5SUM:=3a6a389ab9eb534f457e1952f25575e8
+PKG_MD5SUM:=966b3bc3b30c526aea916227fe856973
 
 include $(INCLUDE_DIR)/package.mk
 
